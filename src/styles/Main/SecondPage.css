@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+#secondPage_container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  height: 100vh;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+}
+.title h1 {
+  font-size: 4em;
+}
+.title span {
+  align-items: center;
+  display: flex;
+}
+
+.content {
+  display: flex;
+  height: 90%;
+}
+.fashion_image {
+  position: relative;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.fashion_image img {
+  width: inherit;
+  height: 90%;
+}
+.fashion_image:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: inherit;
+  opacity: 0.9;
+  background-color: crimson;
+  left: 60%;
+}
+
+.text {
+  position: relative;
+  width: 35%;
+  height: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+.text::after {
+  content: "";
+  position: absolute;
+  height: 70%;
+  width: 3px;
+  right: 0;
+  top: 0;
+  background-color: #333;
+}
+
+.text h1,
+.text span,
+.desc {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: end;
+  padding-bottom: 20px;
+}
+.text h1 {
+  font-size: 4em;
+}
+.text span {
+  font-size: 1em;
+}
+.desc {
+  text-align: right;
+  font-size: 1.5em;
+  height: 50%;
+  align-items: end;
+}

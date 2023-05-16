@@ -1,0 +1,133 @@
+#firstPage_container {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.logo {
+  letter-spacing: 5px;
+  display: block;
+  font-size: 4.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.67em;
+}
+
+.menu ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu ul li {
+  display: inline-block;
+}
+
+/* 메뉴전체보기 버튼*/
+.menu_trigger {
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  right: 50px;
+  top: 33px;
+  cursor: pointer;
+}
+
+.menu_trigger.active span {
+  background-color: #000;
+}
+.menu_trigger.active span:nth-child(1) {
+  top: 50%;
+  transform: rotate(45deg);
+}
+.menu_trigger.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu_trigger.active span:nth-child(3) {
+  top: 50%;
+  transform: rotate(-45deg);
+}
+
+.menu_trigger span {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition: 0.3s;
+}
+
+.menu_trigger span:nth-child(1) {
+  top: 0%;
+}
+.menu_trigger span:nth-child(2) {
+  top: 50%;
+}
+.menu_trigger span:nth-child(3) {
+  top: 100%;
+}
+
+.video video {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+/* 메뉴전체보기 모달창 */
+.modal_gnb {
+  position: absolute;
+  background-color: #000;
+  top: 105px;
+  height: calc(100vh - 105px);
+  width: 100%;
+  display: none;
+  animation: topToBottom linear 0.5s;
+}
+@keyframes topToBottom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.gnb {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gnb ul li {
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  padding: 10px;
+  cursor: pointer;
+}
+.gnb ul li:hover {
+  color: crimson;
+}
+.gnb ul li:nth-child(1) {
+  animation: leftToRight linear 0.5s;
+}
+.gnb ul li:nth-child(2) {
+  animation: leftToRight linear 0.7s;
+}
+.gnb ul li:nth-child(3) {
+  animation: leftToRight linear 0.9s;
+}
+@keyframes leftToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
