@@ -22,8 +22,8 @@ const FirstPage = ({ overFlowHidden }) => {
         <h1 className="logo">SHIM</h1>
         <div className="menu">
           <ul>
-            <li>FASHION</li>
             <li>RUNWAY</li>
+            <li>FASHION</li>
             <li>MOVIE</li>
           </ul>
         </div>
@@ -39,8 +39,8 @@ const FirstPage = ({ overFlowHidden }) => {
       <div className="modal_gnb">
         <div className="gnb">
           <ul>
-            <li>FASHION</li>
             <li>RUNWAY</li>
+            <li>FASHION</li>
             <li>MOVIE</li>
           </ul>
         </div>

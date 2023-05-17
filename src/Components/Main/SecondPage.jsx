@@ -6,7 +6,7 @@ const SecondPage = () => {
     <div id="secondPage_container">
       <div className="container">
         <div className="title">
-          <h1>FASHION</h1>
+          <h1>RUNWAY</h1>
           <span>MORE &gt;</span>
         </div>
         <div className="content">
@@ -14,8 +14,8 @@ const SecondPage = () => {
             <img src={mainImg} alt="" />
           </div>
           <div className="text">
-            <h1>RUNWAY</h1>
-            <span>FALL 2023 READY-TO-WEAR</span>
+            <h1>READY-TO-WEAR</h1>
+            <span>The Fall 2023 Trends Reflect the World Around Us </span>
             <div className="desc">
               Say Hello to Real Life:
               <br /> Trends FROM Fall 2023 You'll Actually Wear.
