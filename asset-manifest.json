@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/fashion_magazine/static/css/main.fb7ac909.css",
+    "main.js": "/fashion_magazine/static/js/main.9eb318d2.js",
+    "static/media/main.mp4": "/fashion_magazine/static/media/main.6ecb1a4270b074434f72.mp4",
+    "static/media/dongwon.jpg": "/fashion_magazine/static/media/dongwon.9679b8c2f79cb2ad59fb.jpg",
+    "static/media/mainImg.jpg": "/fashion_magazine/static/media/mainImg.6483931dc677be1968f1.jpg",
+    "static/media/karina.jpg": "/fashion_magazine/static/media/karina.bae7fa63f5f9b5a2e879.jpg",
+    "index.html": "/fashion_magazine/index.html",
+    "main.fb7ac909.css.map": "/fashion_magazine/static/css/main.fb7ac909.css.map",
+    "main.9eb318d2.js.map": "/fashion_magazine/static/js/main.9eb318d2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb7ac909.css",
+    "static/js/main.9eb318d2.js"
+  ]
+}
